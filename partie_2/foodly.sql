@@ -1,3 +1,4 @@
+
 -- MySQL dump 10.13  Distrib 8.0.21, for osx10.15 (x86_64)
 --
 -- Host: localhost    Database: foodly2
@@ -71,6 +72,8 @@ LOCK TABLES `utilisateur` WRITE;
 INSERT INTO `utilisateur` VALUES (1,'durantay','quentin','qentin@gmail.com'),(2,'dupont','marie','marie@hotmail.fr'),(3,'miller','vincent','vm@yahoo.com'),(4,'zuckerberg','marc','marc@gmail.com'),(5,'paul','pierre','pp@orange.fr'),(6,'de vauclerc','lisa','lisadv@gmail.com'),(7,'gluntig','éléonore','glunt@sfr.com'),(8,'cavill','henry','henry@outlook.fr'),(9,'hopper','lionel','hpp@gmail.com'),(10,'tember','fabienne','fabienne@yopmail.com');
 /*!40000 ALTER TABLE `utilisateur` ENABLE KEYS */;
 UNLOCK TABLES;
+
+SHOW columns INTO aliment;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
